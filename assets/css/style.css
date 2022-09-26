@@ -1,0 +1,166 @@
+/*--------------------------------------ESTILOS DA PÁGINA HTML.INDEX--------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+
+:root {
+  background-color: rgb(226, 220, 210);
+  display: flex;
+ --bgg-colortext: rgb(41, 25, 25);
+ --bgg-colorbg: #4C54A7; 
+
+}
+
+.center {
+  text-align: center;  
+}
+
+
+/*___________________________Menu___________________________*/
+.box {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+ .menu li {
+    display: inline;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Luxurious Roman', cursive;
+ }
+
+ .menu li a {
+    text-decoration: none;
+    color: var(--bgg-colorbg)
+ }
+
+ .menu li a:hover {
+  color: rgb(206, 14, 14);  
+ }
+
+/*___________________________Primeiro Parágrafo___________________________*/
+.h1-title {
+  font-family: 'Chela One', cursive;
+  font-size: 90px;
+  text-decoration:underline;
+  color:var(--bgg-colorbg)
+}
+
+.h1-title:hover {
+  color: rgb(206, 14, 14);
+}
+
+.bgcolor {
+  background-color: var(--bgg-colorbg);
+ 
+}
+.p1 {
+  padding: 30px;
+  text-align: justify;
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 20px;
+  color: var(--bgg-colortext)
+  
+}
+
+.img-inicio {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+}
+
+/*___________________________Vídeo___________________________*/
+
+.h2-video {
+  font-family: 'Luxurious Roman', cursive;
+  color: var(--bgg-colorbg)
+}
+
+.h2-video:hover {
+  color: rgb(206, 14, 14); 
+}
+
+.video {
+  margin-bottom: 20px;
+}
+
+/*___________________________Fim da Página___________________________*/
+.img-rede {
+  width: 50px;
+  height: 50px;
+  padding: 30px;
+}
+
+/*--------------------------------------ESTILOS DA PÁGINA TRIPULAÇÃO.INDEX--------------------------------------*/
+
+.trip-title {
+  font-family: 'Chela One', cursive;
+  font-size: 50px;
+  color:var(--bgg-colorbg);
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.trip-title:hover {
+  color: rgb(206, 14, 14); 
+}
+
+.box2 {
+  display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: var(--bgg-colorbg);
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.p2{
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 17px;
+  color: var(--bgg-colortext);
+  text-align: justify;
+  padding: 10px;
+
+}
+
+.img-trip {
+  width: 90px;
+  height: 90px;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+/*--------------------------------------ESTILOS DA PÁGINA CONTATO.INDEX--------------------------------------*/
+ .marginl {
+  margin-left: 50px;
+ }
+
+ form {
+  margin-top: 50px;
+ }
+ 
+ 
+ 
+ 
+ /*___________________________Mapa___________________________*/
+ .h3-cont {
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 20px;
+  color: var(--bgg-colortext);
+ }
+
+ .p3 {
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 15px;
+  color: var(--bgg-colortext);
+ }
+
+.map {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
