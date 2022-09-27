@@ -27,23 +27,23 @@
         
         <form> <!--Formulário-->
         <label class="p2" for="nome">Nome:</label> <br>
-        <input class="form" type="text" id="nome"> 
+        <input class="form" type="text" id="nome" onkeyup="validaNome()"> 
+        <div id="txtNome" ></div>
         <br>
-        <br>
-        <label class="p2" for="email">E-mail:</label><br>
-        <input class="form" type="email" id="email"> 
-        <br>
-        <br>
-        <label class="p2" for="mensagem">Mensagem:</label> <br>
-        <textarea class="msg" name="mensagem" id="mensagem" cols="70" rows="10"></textarea>
-    </div>
        
+        <label class="p2" for="email">E-mail:</label><br>
+        <input class="form" type="email" id="email" onkeyup="validaEmail()"> 
+        <div id="txtEmail"></div>
         <br>
-        <br>
-              
+       
+        <label class="p2" for="mensagem">Mensagem:</label> <br>
+        <textarea class="msg" name="mensagem" id="mensagem" cols="70" rows="10" onkeyup="validaMensagem()"></textarea>
+        <div id="txtMensagem"></div>
+    </div>
+        <br>    
     <!------------------------------------BOTÃO ENVIAR-------------------------------------> 
          <div class="center">
-            <button class="button">Enviar</button>
+            <button onclick="enviar()" class="button">Enviar</button>
          </div>
         
          </form>
@@ -80,6 +80,6 @@
             Feito Por Uma Nerd Com Carinho: Brenda Chagas &copy;
            </p> 
         </footer>
-    
+        <script src="assets/js/script.js"></script> 
 </body>
 </html>
