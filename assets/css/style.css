@@ -55,6 +55,8 @@
 
 .bgcolor {
   background-color: var(--bgg-colorbg);
+  border-radius: 30px;
+  box-shadow: 0 8px 16px 0 var(--bgg-colorbg), 0 6px 20px 0 var(--bgg-colorbg);
  
 }
 .p1 {
@@ -76,7 +78,9 @@
 
 .h2-video {
   font-family: 'Luxurious Roman', cursive;
-  color: var(--bgg-colorbg)
+  color: var(--bgg-colorbg);
+  margin-top: 90px;
+  margin-bottom: 50px;
 }
 
 .h2-video:hover {
@@ -85,6 +89,7 @@
 
 .video {
   margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 /*___________________________Fim da Página___________________________*/
@@ -117,6 +122,8 @@
     margin-left: 50px;
     margin-right: 50px;
     padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 var(--bgg-colorbg), 0 6px 20px 0 var(--bgg-colorbg);
 }
 
 .p2{
@@ -133,20 +140,52 @@
   height: 90px;
   text-align: justify;
   margin-bottom: 50px;
+  border-radius: 20px;
 }
 
 /*--------------------------------------ESTILOS DA PÁGINA CONTATO.INDEX--------------------------------------*/
- .marginl {
-  margin-left: 50px;
+.line {
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.form {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #4C54A7;
+  width: 500px;
+  height: 20px;
  }
 
- form {
-  margin-top: 50px;
+ .msg {
+  border-radius: 10px;
+  border: 2px solid var(--bgg-colorbg);
+  width: 500px;
+  height: 200px;
+ }
+
+ /*___________________________Botão___________________________*/
+ .button { /*Palavra de dentro do botão*/
+  border-radius: 20px;
+  border-style: none;
+  height: 30px;
+  width: 500px;
+  color:white;
+  background-color: var(--bgg-colorbg);
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 20px;
+ }
+
+ .button:hover {
+  color: black;
+  background-color: rgb(171, 151, 218);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
  }
  
- 
- 
- 
+
  /*___________________________Mapa___________________________*/
  .h3-cont {
   font-family: 'Luxurious Roman', cursive;
@@ -161,6 +200,7 @@
  }
 
 .map {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 20px;
+  border-radius: 10px;
 }
